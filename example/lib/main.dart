@@ -288,9 +288,9 @@ class _MyHomePageState extends State<MyHomePage> {
           }
         },
         initialUrlRequest: URLRequest(
-          url: Uri.parse(
+          url: WebUri.uri(Uri.parse(
             'https://webapp-qc.nonprodposi.com/bonds/p2p',
-          ),
+          )),
         ),
       ),
     );
